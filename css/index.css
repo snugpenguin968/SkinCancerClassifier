@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --primary-color: #edf2f8;
+  --secondary-color: #007AF3;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --green-color:#3cb371;
+}
+
+.nav-wrapper {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body {
+  font-family: "Poppins";
+  background: var(--white-color);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+span {
+  color: var(--green-color);
+}
+
+h4 {
+  margin-top: 0.05em;
+  text-align: center;
+  font-size: 2em;
+  color: #3cb371;
+}
+
+input {
+  width: 90px;
+  display: block;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.prediction {
+  text-align: center;
+}
+
+.probability {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.buttondiv {
+  margin: auto;
+  width: 110px;
+}
+
+.buttondiv .submit {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buttondiv button:hover {
+  background-color: #ffffff;
+  color: #3cb371;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
